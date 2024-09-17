@@ -3,3 +3,10 @@ class LinkedList {
 		this.head = null;
 	}
 }
+
+class Node {
+	constructor(value = null) {
+		this.value = value;
+		this.next = null;
+	}
+}
