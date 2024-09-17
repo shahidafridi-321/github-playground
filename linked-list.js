@@ -15,19 +15,8 @@ class LinkedList {
 		}
 		currentNode = newNode;
 	}
-	find(value) {
-		if (!this.head) {
-			return false;
-		}
-		let currentNode = this.head;
-		while (currentNode) {
-			if (currentNode.value === value) {
-				return true;
-			}
-			currentNode = currentNode.next;
-		}
-		return false;
-	}
+
+	prepend() {}
 }
 
 class Node {
