@@ -16,9 +16,9 @@ class LinkedList {
 		currentNode = newNode;
 	}
 
-	prepend(){
-		
-	}
+	prepend() {}
+
+	remove() {}
 }
 
 class Node {
